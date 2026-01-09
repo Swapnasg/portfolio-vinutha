@@ -2082,6 +2082,15 @@ img.dbancardc {
 .pagination.dbanp ul {
     justify-content: flex-end;
 }
+.cards a {
+    text-decoration: none;
+    transition: transform .5s;
+    display: inline-block;
+}
+
+.cards a:hover {
+    transform: translateY(-10px);
+}
 @media (max-width: 768px) {
     .header-sec {
         flex-direction: row;
