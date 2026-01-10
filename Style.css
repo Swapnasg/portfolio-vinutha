@@ -140,8 +140,24 @@ p {
 
 .header-wrap {
     padding: 50px 20px;
+    position: fixed;
+    width: 100%;
+    background-color: #F6F6F6;
+    z-index: 9;
 }
-
+.header-space {
+    padding-top: 130px;
+}
+.logo-wrap p a {
+    color: #011B2F;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 .header-sec {
     display: flex;
     justify-content: space-between;
